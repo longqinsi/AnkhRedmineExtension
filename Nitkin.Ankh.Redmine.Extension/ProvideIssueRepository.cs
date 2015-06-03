@@ -43,11 +43,11 @@ namespace Nitkin.Ankh.Redmine.Extension
                     {
                         key3.SetValue("", this.UIName);
                         key3.SetValue("Package", this.UINamePkg.ToString("B").ToUpperInvariant());
-                        key3.Close();
+                        //key3.Close();
                     }
-                    key2.Close();
+                    //key2.Close();
                 }
-                key.Close();
+                //key.Close();
             }
         }
 

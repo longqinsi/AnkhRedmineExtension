@@ -40,7 +40,7 @@ namespace Nitkin.Ankh.Redmine.Extension.IssueTracker.Forms
             : this()
         {
             repository = repos;
-            object value = null;
+            //object value = null;
             //repository.CustomProperties.TryGetValue(AnkhRepository.PROPERTY_USEPROXY, out value);
             //if (value!=null&&(bool)value)
             //{
