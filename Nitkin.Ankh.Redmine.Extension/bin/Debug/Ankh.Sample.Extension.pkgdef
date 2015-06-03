@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+[$RootKey$\IssueRepositoryConnectors]
+[$RootKey$\IssueRepositoryConnectors\{121C7911-C0FD-483E-8BE7-16F40B3E7EF4}]
+@="Nitkin Ankh Redmine connector"
+"Service"="{121C7911-C0FD-483E-8BE7-16F40B3E7EF4}"
+[$RootKey$\IssueRepositoryConnectors\{121C7911-C0FD-483E-8BE7-16F40B3E7EF4}\Name]
+@="#110"
+"Package"="{73507E46-0653-4F1E-99AF-F6735FE1565A}"
+[$RootKey$\InstalledProducts\SampleExtensionPackage]
+@="#110"
+"Package"="{73507e46-0653-4f1e-99af-f6735fe1565a}"
+"ProductDetails"="#112"
+"PID"="1.0"
+"LogoID"="#400"
+[$RootKey$\Packages\{73507e46-0653-4f1e-99af-f6735fe1565a}]
+@="Nitkin.Ankh.Redmine.Extension.SampleExtensionPackage, Nitkin.Ankh.Redmine.Extension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9b3c4acf623f8f88"
+"InprocServer32"="%windir%\\system32\\mscoree.dll"
+"Class"="Nitkin.Ankh.Redmine.Extension.SampleExtensionPackage"
+"Assembly"="Nitkin.Ankh.Redmine.Extension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9b3c4acf623f8f88"
+[$RootKey$\Packages\{73507e46-0653-4f1e-99af-f6735fe1565a}]
+"ID"=dword:00000068
+"MinEdition"="Standard"
+"ProductVersion"="1.0"
+"ProductName"="AnkhRedminePlugin"
+"CompanyName"="Nitkin"
+[$RootKey$\Services\{121c7911-c0fd-483e-8be7-16f40b3e7ef4}]
+@="{73507e46-0653-4f1e-99af-f6735fe1565a}"
+"Name"="Nitkin Ankh Redmine connector"
+
